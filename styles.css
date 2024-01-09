@@ -1,0 +1,240 @@
+ section{
+    width: 90%;
+    margin:auto;
+    overflow: hidden;
+    
+    text-align:
+    }
+ 
+ 
+ #doing .search-bt {
+    text-align: center;
+    margin-top:-53px;
+    float: right;
+}        
+ 
+              
+#doing{
+    border:3px solid black;
+    height:63px;
+    background: #ff95e7;
+}              
+              
+#doing #logo {
+    text-align: center;
+    margin-top:-75px;
+}              
+
+.second-bg { background-image: url('logo.jpg'); /* Replace 'logo.jpg' with the path to your image */ background-size: cover; background-position: center; background-repeat: no-repeat; height: 230px; width: auto;/* Set the height of your header */ /* You can add more styles as needed */ } 
+
+.work { padding: 20px; color: black; padding-top:-200px; font-size:18px;/* Text color for better contrast */ }
+          
+footer{
+    background: #ff95e7;
+}
+
+
+
+              
+              /* menu icon */
+
+.menu-toggle {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.line {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+}
+
+.menu {
+    display: none;
+    flex-direction: column;
+    background-color: #ff95e7/* #f9f9f9 */;
+    position: fixed;
+    top: 0px;
+    bottom:0px;
+    right: 0;
+    padding: 85px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight:bold;
+}
+
+
+
+.menu-toggle.open .line:nth-child(1) {
+    transform: rotate(-45deg) translate(-12px, 6px);
+}
+
+.menu-toggle.open .line:nth-child(2) {
+    opacity: 0;
+}
+
+.menu-toggle.open .line:nth-child(3) {
+    transform: rotate(45deg) translate(-12px, -6px);
+}
+
+
+
+
+
+
+
+
+                /* Dark mode */
+body {
+    transition: background-color 0.5s ease;
+    margin: 0;
+    
+    font-family: Arial, sans-serif;
+    background-color:#E0E0E0 /* #fff */; /* Default white background */
+    color: #333; /* Default text color */
+    color: black;
+}
+
+body.dark-mode {
+    background-color: #222; /* Dark background color */
+    color: #fff; /* Light text color for dark mode */
+}
+
+.content {
+    padding: 15px;
+    transition: color 0.5s ease;
+}
+
+.toggle-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;  
+    background: #ff95e7;  
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: #2196F3; /* Blue color when toggled to dark mode */
+}
+
+input:checked + .slider:before {
+    transform: translateX(26px);
+}
+
+.toggle-label {
+    margin-left: 10px;
+}
+
+                /* profile */
+ .profile-container {
+            text-align: center;
+        }
+
+        .profile-image {
+            border-radius: 50%;
+            width: 150px; /* Adjust the size of the profile image */
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .author-name {
+            margin-top: 10px;
+            font-size: 20px;
+            font-weight: bold;
+            
+        }
+
+        .description {
+            margin-top: 5px;
+            font-size: 16px;
+            
+        }
+
+
+
+
+            /* share button */
+.share-button { background-color: #007BFF; 
+color: #fff; 
+padding: 10px 20px; 
+font-size: 16px; 
+cursor: pointer; 
+border: none; 
+border-radius: 5px; 
+float: right;
+} 
+
+ 
+
+#bt button{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+     border: none; margin: 10px; cursor: pointer;
+     background: none;
+}
+
+#bt{
+    text-align: center;
+}
+
+#bt img{ width: 50px; /* Adjust the size of the images */ height: 50px; object-fit: cover; border-radius: 50%; }
+
+
+footer .copyright{
+    text-align: center;
+}
+
+
+.box{
+    border:3px solid;
+}
+h1{
+    font-size:30px;
+}
