@@ -5,6 +5,19 @@
     
     text-align:
     }
+
+section a{
+    text-decoration:none;
+}
+
+#zero{
+    
+   width: 90%;
+    margin:auto;
+    overflow: hidden; 
+    background: #F0F0F0;
+}
+
  
  
  #doing .search-bt {
@@ -25,7 +38,7 @@
     margin-top:-75px;
 }              
 
-.second-bg { background-image: url('logo.jpg'); /* Replace 'logo.jpg' with the path to your image */ background-size: cover; background-position: center; background-repeat: no-repeat; height: 230px; width: auto;/* Set the height of your header */ /* You can add more styles as needed */ } 
+.second-bg { background-image: url('logo2.jpg'); /* Replace 'logo.jpg' with the path to your image */ background-size: cover; background-position: center; background-repeat: no-repeat; height: 230px; width: auto;/* Set the height of your header */ /* You can add more styles as needed */ } 
 
 .work { padding: 20px; color: black; padding-top:-200px; font-size:18px;/* Text color for better contrast */ }
           
@@ -98,10 +111,10 @@ body {
     transition: background-color 0.5s ease;
     margin: 0;
     
-    font-family: Arial, sans-serif;
-    background-color:#E0E0E0 /* #fff */; /* Default white background */
+    font-family: Times New Roman, Times, serif /* Impact, fantasy *//* Arial, sans-serif */;
+    background-color:/* #E0E0E0 */ #fff; /* Default white background */
     color: #333; /* Default text color */
-    color: black;
+    
 }
 
 body.dark-mode {
@@ -238,3 +251,83 @@ footer .copyright{
 h1{
     font-size:30px;
 }
+
+
+
+
+ #fff{
+   width: 95%;
+   }
+   
+   
+   
+ .ash1 table a{
+    color: black;
+    
+}
+
+.ash1 table a:hover{
+    color: blue;
+}
+
+
+.ash1{
+    background:#F0F0F0;
+    align-items: center;
+    border:3px solid #fff;
+    color: black;
+}  
+    
+
+.alive{
+    text-align: center;
+}
+
+.ash table tr td{
+    /* border:1px solid; */
+    color: #fff;
+}
+#fff{
+    background: #fff;
+}
+   
+   
+ #vm{
+    text-align: center;
+    
+}    
+#vm button{
+    background:#ff95e7 ;
+    width: 100px;
+    height: 30px;
+    color: #fff;
+    border:2px solid #E0E0E0;
+    border-radius:10px;
+}
+
+#vm a{
+    color:#fff;
+}
+
+
+#img img {
+            max-width: 100%; /* Ensure the image doesn't exceed its container */
+            height: auto; /* Maintain image aspect ratio */
+            display: block; /* Remove extra space below image */
+            margin: 0 auto; /* Center the image within its container */
+            width: 620px; /* Default width for smaller screens */
+        }
+
+        /* Adjust image width for wider screens */
+        @media (min-width: 1200px) {
+            #img img {
+                width: 80%; /* Adjust width for wider screens */
+            }
+        }
+        
+#rp{
+       text-align: center;
+       font-size:20px;
+       font-weight:bold;
+       border-bottom: 3px solid #fff;
+   } 
