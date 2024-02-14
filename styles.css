@@ -137,6 +137,7 @@ body {
     background-color:/* #E0E0E0 */ #fff; /* Default white background */
     color: #333; /* Default text color */
     font-size:13px;
+    font-weight:bold;
 }
 
 body.dark-mode {
