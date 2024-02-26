@@ -490,3 +490,48 @@ ul li{
 ol li{
     padding:5px;
 }
+
+
+
+
+
+.centered-button2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+        .centered-button2 button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: green;
+            color: #fff;
+            width: 300px;
+            border-radius: 12px;
+            text-align: center;
+            height: 50px;
+            font-size: 15px;
+            font-weight: bold;
+            border: none; /* Remove border */
+        }
+
+        .centered-button2 button img {
+            width: 35px;
+            height: auto;
+            margin-right: 5px; /* Adjust spacing between image and text */
+        }
+
+        .centered-button2 button span {
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+
+        .centered-button2 button a {
+            color: #fff;
+            text-decoration: none;
+            text-align: center;
+            display: inline-block; /* Ensure the link is centered */
+        }
