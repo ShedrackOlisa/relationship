@@ -335,10 +335,10 @@ h1{
 
 #img img{
             max-width: 100%; /* Ensure the image doesn't exceed its container */
-            height: 500px /* auto */; /* Maintain image aspect ratio */
+            height:auto; /* Maintain image aspect ratio */
             display: block; /* Remove extra space below image */
             margin: 0 auto; /* Center the image within its container */
-            width:95% /* 620px */; /* Default width for smaller screens */
+            width:620px ; /* Default width for smaller screens */
         }
 
         /* Adjust image width for wider screens */
