@@ -495,18 +495,18 @@ ol li{
 
 
 
-.centered-button2 {
+.centered-button {
             display: flex;
             justify-content: center;
             align-items: center;
             
         }
 
-        .centered-button2 button {
+        .centered-button button {
             display: flex;
             align-items: center;
             justify-content: center;
-            background: green;
+            background: #ff95e7;
             color: #fff;
             width: 300px;
             border-radius: 12px;
@@ -517,13 +517,51 @@ ol li{
             border: none; /* Remove border */
         }
 
-        .centered-button2 button img {
+        .centered-button button img {
             width: 35px;
             height: auto;
             margin-right: 5px; /* Adjust spacing between image and text */
         }
 
-        .centered-button2 button span {
+        .centered-button button span {
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+
+        .centered-button button a {
+            color: #fff;
+            text-decoration: none;
+            text-align: center;
+            display: inline-block; /* Ensure the link is centered */
+        }
+
+
+
+
+
+ .centered-button button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #ff95e7;
+            color: #fff;
+            width: 300px;
+            border-radius: 12px;
+            text-align: center;
+            height: 50px;
+            font-size: 15px;
+            font-weight: bold;
+            border: none; /* Remove border */
+        }
+
+        .centered-button button img {
+            width: 35px;
+            height: auto;
+            margin-right: 5px; /* Adjust spacing between image and text */
+        }
+
+        .centered-button button span {
             display: flex;
             align-items: center;
             text-align: center;
@@ -535,3 +573,5 @@ ol li{
             text-align: center;
             display: inline-block; /* Ensure the link is centered */
         }
+        
+        
