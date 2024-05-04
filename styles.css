@@ -575,3 +575,62 @@ ol li{
         }
         
         
+.zenu {
+            text-align: center; /* Center the content */
+            margin: 0 auto; /* Ensure content is centered horizontally */
+            max-width: 1200px; /* Set a maximum width for the content */
+            padding: ; /* Optional: Add padding around the content */
+            background:#fff;
+           
+        }
+
+        .zenu table {
+            width: 100%; /* Make the table fill the available width */
+            border-collapse: collapse;
+            margin-top: 20px; /* Optional: Add some top margin */
+            margin: 0 auto;
+        }
+
+        .zenu table td {
+            border: 3px solid #E0E0E0 /* #ccc */; /* Optional: Add a border for table cells */
+            padding: /* 10px */;
+            text-align: center; /* Center the content in each cell */
+        }
+
+        .zenu table img {
+            width: 160px; /* Set a specific width for the images */
+            height: 100px; /* Set a specific height for the images */
+            object-fit: /* cover */; /* Maintain image aspect ratio and cover the defined space */
+            display: block; /* Remove extra space below image */
+            margin: 0 auto; /* Center the image within its container */
+        }
+.zenu a{
+    color: blue ;
+}
+
+   .zenu table a{
+   color: black;
+   font-weight:bold;
+   }
+.zenu table a:hover{
+    color: blue;
+}
+
+
+.app{
+    text-align: center;
+    font-size:15px;
+    font-weight:bold;
+}
+
+
+.h3-ct h3{
+    text-align: center;
+}
+
+
+#required-tools h3{
+    text-align: center;
+}
+
+
