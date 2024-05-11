@@ -634,3 +634,8 @@ ol li{
 }
 
 
+
+
+
+
+.button-container { display: flex; flex-direction: column; align-items: center; } .row { display: flex; justify-content: center; margin-top: 5px; } .dynamic-button { border: none; background: none; padding: 0; cursor: pointer; transition: transform 0.2s ease-in-out; animation: pulse 3s alternate infinite; /* Apply animation to continuously pulse */ } .dynamic-button img { width: 150px; /* Set initial width for smaller buttons */ height: auto; transition: width 0.2s ease-in-out; } /* Styles for bigger buttons */ .dynamic-button.bigger img { width: 300px; /* Larger width for the first and second buttons */ } /* Animation for pulse effect */ @keyframes pulse { 0% { transform: scale(1); /* Normal size */ } 50% { transform: scale(1.1); /* Slightly larger size */ } 100% { transform: scale(1); /* Back to normal size */ } } /* Hover and active styles */ .dynamic-button:hover { transform: scale(1.1); /* Grow slightly on hover */ } .dynamic-button:active { 
